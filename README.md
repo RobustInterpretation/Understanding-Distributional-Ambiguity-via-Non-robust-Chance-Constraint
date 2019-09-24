@@ -11,4 +11,11 @@ Scripts for the paper 'Understanding Distributional Ambiguity via Non-robust Cha
 
 - **RMC_solver_T.m**: to solve the DRO problem using Robust Monte Carlo method;
 
-- **func_rho_N_epsilon_delta_cvx.m**: to find the equivalent ambiguity radius rho given the pair of (epsilon, delta) with 2nd reformulation solving the DRO problem
+- **func_rho_N_epsilon_delta_cvx.m**: to find the equivalent ambiguity radius rho given the pair of (epsilon, delta) with 2nd order reformulation solving the DRO problem and center distribution P0 assumed as multivariate normal distribution;
+
+- **func_rho_T_epsilon_delta_cvx.m**: to find the equivalent ambiguity radius rho given the pair of (epsilon, delta) with 2nd order reformulation solving the DRO problem and center distribution P0 assumed as multivariate t distribution;
+
+- **func_rho_N_epsilon_delta_order4.m**: to find the equivalent ambiguity radius rho given the pair of (epsilon, delta) with 4th order reformulation solving the DRO problem and center distribution P0 assumed as multivariate normal distribution;
+
+- **func_rho_T_epsilon_delta_cvx.m**: to find the equivalent ambiguity radius rho given the pair of (epsilon, delta) with 4th order reformulation solving the DRO problem and center distribution P0 assumed as multivariate t distribution;
+
